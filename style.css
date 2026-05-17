@@ -12,7 +12,6 @@ a {
   text-align: center;
   display: flex;
   flex-wrap: wrap;
-  border: 1px solid black;
 }
 .child {
   flex: 1 0 auto;
