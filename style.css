@@ -8,15 +8,32 @@ h3 {
 a {
   text-decoration: none;
 }
+button {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: #fbca1f;
+  padding: 0.6em 1.3em;
+  font-weight: 900;
+  font-size: 18px;
+  border: 3px solid black;
+  border-radius: 0.4em;
+  box-shadow: 0.1em 0.1em;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  transform: translate(-0.05em, -0.05em);
+  box-shadow: 0.15em 0.15em;
+}
 .container {
   text-align: center;
   display: flex;
   flex-wrap: wrap;
 }
 .child {
-  flex: 1 0 auto;
+  flex: 0 0 20px;
   box-sizing: border-box;
+  border: 1px solid black;
   height: 20px;
   width: 20px;
-  border: 1px solid black;
 }
